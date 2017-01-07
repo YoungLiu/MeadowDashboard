@@ -1,24 +1,17 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
+## Local copies of dependencies that should stay on developers' local machines
+node_modules/
+bower_components/
 
-# Folders
-_obj
-_test
+## Build and test artifacts
+.go_workspace/
+.sass-cache/
+.tmp/
+coverage/
+dist/
+.tools/
 
-# Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
-
-*.cgo1.go
-*.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
-
-_testmain.go
-
-*.exe
-*.test
-*.prof
+## IDE specific files
+# IntelliJ
+.idea/
+# Vi temporary files
+*.swp
